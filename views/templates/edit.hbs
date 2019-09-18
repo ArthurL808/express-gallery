@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <h1 class="welcome">Edit Post</h1>
+<form action="/gallery/{{id}}?_method=PUT" method="POST">
+  <h2>Author:</h2>
+    <input type="text" name="author" value="{{author}}">
+    <h2>Photo link:</h2>
+    <input type="text" name="photoLink" value="{{link}}"> 
+    <h2>Description:</h2>
+    <input type="text" name="description" value="{{description}}"> <br> <br>
+    <input class="btn" type="submit" value="Submit">
+</form>
+<h2>{{error}}</h2>
+</div>
