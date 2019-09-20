@@ -5,9 +5,9 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('gallery').insert([
-        {author: 'aliko dangote',link: 'https://specials-images.forbesimg.com/imageserve/5c33a1554bbe6f7020fb2fd2/416x416.jpg?background=000000&cropX1=363&cropX2=3282&cropY1=11&cropY2=2930',description: 'Nigerian, Sugar, Cement, Flour',user_id:'1'},
-        {author: 'mike adenuga',link: 'https://buzznigeria.com/wp-content/uploads/2015/01/Mike-Adenuga-Jnr-Chairman-of-Globacom-640x548.jpg',description:'Nigerian, Oil, Telecoms',user_id:'2'},
-        {author: 'robert smith',link:'https://specials-images.forbesimg.com/imageserve/5ba5310331358e5690cdb03e/416x416.jpg?background=000000&cropX1=737&cropX2=3137&cropY1=268&cropY2=2667',description:'American, Private Equity',user_id:'3'}
+        {author: 'johnB',link: 'https://www.rollingstone.com/wp-content/uploads/2018/06/rs-234216-John-Bonham_Zuma-20060222_gaf_g49_170.jpg?resize=1240,1240&w=300',description: 'John Bonham from Led Zeppelin',user_id:'1'},
+        {author: 'keithM',link: 'https://www.rollingstone.com/wp-content/uploads/2018/06/rs-234094-GettyImages-3204584.jpg?resize=1240,1240&w=300',description:'Keith Moon from The Who',user_id:'2'},
+        {author: 'gingerB',link:'https://www.rollingstone.com/wp-content/uploads/2018/06/rs-234009-GettyImages-85000846.jpg?resize=1240,1240&w=300',description:'Ginger Baker from Cream',user_id:'3'}
       ]);
     });
 };
